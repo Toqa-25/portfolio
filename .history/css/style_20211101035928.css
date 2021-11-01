@@ -238,51 +238,15 @@ text-align: center;
     text-decoration: none;
     color: #483705;
 }
-/* media quary for work style */
 
-@media(max-width:991px){
-    .work-content{
-    display: grid;
-    grid-template-columns:repeat(2,1fr);
-    grid-template-rows: minmax(1fr,350px);
-    gap:20px;
- }
-}
-@media(max-width:575px){
-.work-content{
-    display: grid;
-    grid-template-columns:1fr;
-    grid-template-rows: minmax(1fr,350px);
-    gap:20px;
- }
-}
-/* 
-    about style
-********************************
-*/
 .about{
     text-align: center;
    
 }
 /* 
-    review style
+    my-work style
 ********************************
 */
-.review{
-    text-align: center;
-}
-.review-content{
-    margin:auto;
-}
-.review-img{
-    width:300px;
-    height: 300px;
-    margin: auto;
-}
-.review-img img{
-    max-width: 100%;
-}
-
 /* 
 media quary style
 ***************************************

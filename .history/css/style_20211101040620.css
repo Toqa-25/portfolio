@@ -243,18 +243,13 @@ text-align: center;
 @media(max-width:991px){
     .work-content{
     display: grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(3,1fr);
     grid-template-rows: minmax(1fr,350px);
     gap:20px;
  }
 }
-@media(max-width:575px){
-.work-content{
-    display: grid;
-    grid-template-columns:1fr;
-    grid-template-rows: minmax(1fr,350px);
-    gap:20px;
- }
+@media(max-width:991px){
+
 }
 /* 
     about style
